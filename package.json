@@ -1,0 +1,17 @@
+{
+  "name": "practice-and-delete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --notify",
+    "test:watch": "pnpm jest --notify --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "29.7.0",
+    "node-notifier": "10.0.1"
+  }
+}
