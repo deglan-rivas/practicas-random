@@ -8,13 +8,16 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --notify",
-    "test:watch": "pnpm jest --notify --watchAll"
+    "test:watch": "pnpm jest --notify --watchAll",
+    "dev": "ts-node-dev --respawn --ignore-watch node_modules --watch hdeleon ./hdeleon/ts-funcional.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "29.7.0",
-    "node-notifier": "10.0.1"
+    "node-notifier": "10.0.1",
+    "ts-node-dev": "2.0.0",
+    "typescript": "5.3.3"
   }
 }
