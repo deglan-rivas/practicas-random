@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest --notify",
     "test:watch": "pnpm jest --notify --watchAll",
-    "dev": "ts-node-dev --respawn --ignore-watch node_modules --watch hdeleon ./hdeleon/ts-funcional.ts"
+    "dev": "ts-node-dev --respawn --ignore-watch node_modules --watch midulive ./midulive/ts-clase-2.ts"
   },
   "keywords": [],
   "author": "",
