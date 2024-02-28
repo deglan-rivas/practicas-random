@@ -7,6 +7,7 @@
   ],
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node-dev --respawn --ignore-watch node_modules --watch src ./src/index.ts",
     "test": "jest --notify",
     "test:watch": "pnpm jest --notify --watchAll",
     "dev": "ts-node-dev --respawn --ignore-watch node_modules --watch midulive ./midulive/ts-clase-2.ts"
